@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en HomePage match to snapshot 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <header>
+      <div
+        class="navbar"
+      >
+        <div
+          class="logo"
+        >
+          <a
+            href="/"
+          >
+            <img
+              alt="Mercado lIbre"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+          </a>
+        </div>
+        <div
+          class="search--container"
+        >
+          <input
+            placeholder="Nunca dejes de buscar"
+            type="text"
+            value=""
+          />
+          <button>
+            <img
+              alt="Ingrese su busqueda"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div
+        class="container--content"
+      >
+        <div
+          class="bread--container"
+        >
+          <a
+            href="/"
+          >
+            Home
+          </a>
+        </div>
+        <div
+          class="content"
+        >
+          <span
+            aria-busy="true"
+            aria-live="polite"
+          >
+            <span
+              class="react-loading-skeleton"
+              style="height: 150px; margin-bottom: 15px;"
+            >
+              ‌
+            </span>
+            <br />
+            <span
+              class="react-loading-skeleton"
+              style="height: 150px; margin-bottom: 15px;"
+            >
+              ‌
+            </span>
+            <br />
+            <span
+              class="react-loading-skeleton"
+              style="height: 150px; margin-bottom: 15px;"
+            >
+              ‌
+            </span>
+            <br />
+            <span
+              class="react-loading-skeleton"
+              style="height: 150px; margin-bottom: 15px;"
+            >
+              ‌
+            </span>
+            <br />
+          </span>
+           
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+`;

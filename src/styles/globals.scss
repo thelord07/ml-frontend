@@ -1,0 +1,295 @@
+//colors
+$primary-color: #FFE600;
+$title-color: #333333;
+$paragraph-color: #999999;
+$background-color-light: #EEEEEE;
+$buttons-color: #3483FA;
+//spaces
+$common-padding: 16px;
+$common-margin: 32px;
+//breakpoint
+$breakpoint-small: 480px;
+$breakpoint-medium: 820px;
+@font-face {
+    font-family: 'proxima_nova_regular';
+    src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot');
+    src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'), url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.woff') format('woff'), url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.ttf') format('truetype'), url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: proxima_nova_regular, -apple-system, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+}
+
+//common styles for extends
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    background-color: $background-color-light;
+    padding-bottom: 100px;
+}
+
+a {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    display: grid;
+    grid-gap: $common-padding;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, auto);
+}
+
+header {
+    grid-column: span 1;
+    background-color: $primary-color;
+    @media screen and (max-width: $breakpoint-medium) {
+        padding: 0 20px;
+    }
+    .navbar {
+        display: grid;
+        width: 100%;
+        max-width: 1184px;
+        margin: 0 auto;
+        grid-gap: $common-padding;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 1;
+        padding-top: $common-padding;
+        padding-bottom: $common-padding;
+        .logo {
+            @extend .flex-center;
+            grid-column: 1 / 2;
+        }
+    }
+    .search--container {
+        background-color: white;
+        grid-column: 2 / -1;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        height: 23px;
+        padding: 7px 0 9px 15px;
+        input {
+            width: calc(100% - 20px);
+            border: none;
+            outline: none;
+            color: $paragraph-color;
+        }
+        button {
+            border: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: -7px;
+            padding: 20px 15px;
+            margin-left: 3px;
+            background-color: $background-color-light;
+             :hover {
+                opacity: 0.7;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+main {
+    grid-column: span 1;
+    min-height: 100vh;
+    @media screen and (max-width: $breakpoint-medium) {
+        margin: 0 20px;
+    }
+}
+
+.container--content {
+    max-width: 1184px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: $common-padding;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, auto);
+}
+
+.bread--container {
+    grid-column: 1 / -1;
+    font-size: 14px;
+    color: $paragraph-color;
+}
+
+.content {
+    grid-column: 1 / -1;
+    background-color: white;
+    padding: $common-padding;
+}
+
+.products--list {
+    display: grid;
+    grid-template-columns: 1;
+    grid-auto-rows: auto;
+    grid-gap: $common-padding;
+}
+
+.item {
+    border-bottom: solid 1px $background-color-light;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: 1 auto;
+    grid-gap: $common-padding;
+    padding-bottom: $common-padding;
+    &--image {
+        grid-column: 1 / 2;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: $common-padding;
+        img {
+            border-radius: 4px;
+        }
+        @media screen and (max-width: $breakpoint-small) {
+            grid-column: 1 /-1;
+            justify-content: center;
+        }
+    }
+    &--description {
+        grid-column: 2 / -1;
+        padding-top: $common-padding;
+        &--head {
+            display: grid;
+            grid-gap: $common-padding;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: repeat( 2, auto);
+        }
+        &--price {
+            grid-column: 1 / 3;
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-start;
+            @media screen and (max-width: $breakpoint-small) {
+                grid-column: 1 / 5;
+            }
+            img {
+                margin-left: 10px;
+                padding-bottom: 3px;
+            }
+            h3 {
+                margin: 0;
+                font-size: 24px;
+                padding: 0;
+            }
+        }
+        h2 {
+            grid-column: 1 / 4;
+            grid-row-start: 2;
+            color: $title-color;
+            font-size: 18px;
+            font-weight: 300;
+            margin-top: calc($common-margin - $common-padding);
+            @media screen and (max-width: $breakpoint-small) {
+                grid-column: 1 / 5;
+            }
+        }
+        h4 {
+            grid-column-start: 6;
+            grid-row: span 2;
+            font-size: 12px;
+            color: $paragraph-color;
+        }
+        @media screen and (max-width: $breakpoint-small) {
+            grid-column: 1 / -1;
+        }
+    }
+}
+
+.product {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: $common-padding;
+    &--slider {
+        grid-column: 1 / 9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @media screen and (max-width: $breakpoint-small) {
+            grid-column: 1 / -1;
+        }
+        img {
+            object-fit: contain;
+            @media screen and (max-width: $breakpoint-small) {
+                width: 90% !important;
+                height: auto !important;
+            }
+        }
+    }
+    &--info {
+        grid-column: 9 / -1;
+        padding-top: $common-margin;
+        grid-row: span 2;
+        @media screen and (max-width: $breakpoint-small) {
+            grid-column: 1 / -1;
+        }
+        h2 {
+            font-size: 14px;
+            margin: 0;
+            padding: 0 0 $common-padding;
+            color: $paragraph-color;
+        }
+        h1 {
+            font-size: 24px;
+            margin: 0;
+            padding-bottom: $common-margin;
+        }
+    }
+    &--price {
+        font-size: 46px;
+        padding-bottom: $common-margin;
+    }
+    &--description {
+        grid-column: 1 / 9;
+        padding-left: $common-margin;
+        @media screen and (max-width: $breakpoint-small) {
+            grid-column: 1 / -1;
+            padding-left: 0;
+        }
+        h2 {
+            margin-bottom: $common-margin;
+            font-size: 28px;
+        }
+        p {
+            font-size: 16;
+            color: $paragraph-color;
+            width: 100%;
+            overflow: hidden;
+        }
+    }
+}
+
+.btn {
+    width: calc(100% - $common-margin);
+    height: 48px;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    &--primary {
+        background-color: $buttons-color;
+        color: white;
+        transition: background-color .5s ease-in-out;
+        &:hover {
+            background-color: #1570f9;
+        }
+    }
+}
+
+h1 {
+    color: $title-color;
+}

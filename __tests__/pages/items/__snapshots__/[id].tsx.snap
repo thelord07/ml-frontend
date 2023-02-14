@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en Items match to snapshot 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <header>
+      <div
+        class="navbar"
+      >
+        <div
+          class="logo"
+        >
+          <a
+            href="/"
+          >
+            <img
+              alt="Mercado lIbre"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+          </a>
+        </div>
+        <div
+          class="search--container"
+        >
+          <input
+            placeholder="Nunca dejes de buscar"
+            type="text"
+            value=""
+          />
+          <button>
+            <img
+              alt="Ingrese su busqueda"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div
+        class="container--content"
+      >
+        <div
+          class="bread--container"
+        >
+          <a
+            href="/"
+          >
+            Home
+          </a>
+        </div>
+        <div
+          class="content"
+        >
+          <div
+            class="product"
+          >
+            <div
+              class="product--slider"
+            >
+              <img
+                alt="Buzo Fila Inbox En Azul Marino | Dexter"
+                data-nimg="1"
+                decoding="async"
+                height="690"
+                loading="lazy"
+                src="/_next/image?url=http%3A%2F%2Fhttp2.mlstatic.com%2FD_762147-MLA53640228165_022023-I.jpg&w=1920&q=75"
+                srcset="/_next/image?url=http%3A%2F%2Fhttp2.mlstatic.com%2FD_762147-MLA53640228165_022023-I.jpg&w=750&q=75 1x, /_next/image?url=http%3A%2F%2Fhttp2.mlstatic.com%2FD_762147-MLA53640228165_022023-I.jpg&w=1920&q=75 2x"
+                style="color: transparent;"
+                width="680"
+              />
+            </div>
+            <div
+              class="product--info"
+            >
+              <h2>
+                new - 9 vendidos
+              </h2>
+              <h1>
+                Buzo Fila Inbox En Azul Marino | Dexter
+              </h1>
+              <div
+                class="product--price"
+              >
+                $ 14.099
+              </div>
+              <button
+                class="btn btn--primary"
+              >
+                Comprar
+              </button>
+            </div>
+            <div
+              class="product--description"
+            >
+              <h2>
+                Descripción del producto
+              </h2>
+              <p>
+                TIENDA OFICIAL DEXTER
+
+Buzo Fila Inbox en Azul Marino Hombre | Dexter
+Producto distribuido por Dexter
+
+El buzo Fila Inbox está confeccionado en algodón y posee capucha además de un bolsillo estilo canguro en su parte frontal. Su comodidad y diseño con el logo de la marca la vuelven una pieza fácil de combinar en tu vida urbana como en tus días de entrenamiento. | Buzo Fila Inbox en Azul Marino Hombre | Dexter
+
+CAMBIOS Y DEVOLUCIONES:
+Si tenés la necesidad de cambiar o devolver tu producto podrás hacerlo sin ningún tipo de problema, nuestra misión es poder brindarte la mejor experiencia de compra posible.
+- Para realizar un cambio, te pedimos que te acerques a cualquiera de nuestras sucursales (dentro de los 30 días de haber recibido la compra) ya sea por talle, por modelo u otro.
+El producto debe estar en las mismas condiciones que te lo 
+enviamos (sin uso, con sus etiquetas y en su caja original, ya que en el local evaluarán esos detalles).
+
+*Sujeto a la disponibilidad que tenga la sucursal seleccionada, al momento del cambio.
+- Si no podes acercarte a una sucursal, tenes 30 (treinta) días corridos para realizar la devolución a través de Mercado Libre.
+¿Cómo se hace?
+En el detalle de la compra debes ubicar el producto que deseas devolver, seleccionar la opción "Necesito ayuda" - "Quiero devolver o cambiar el producto" - "Es lo que compré pero no me sirve"; y por último seleccioná la opción que más defina tu caso.
+Mercado Libre te generará una etiqueta de envío para que imprimas y pegues en el paquete embolsado en su packaging original o en una bolsa negra bien sellada. Deberás llevar el paquete a la sucursal del Correo que te indicarán en la etiqueta.
+Una vez que recibamos el paquete, se te realizará la devolución del dinero a tu cuenta de Mercado Pago dentro de las 48 hs hábiles (sábados y domingos no son días hábiles), o lo verás reflejado en tu próximo resumen de la tarjeta de crédito.
+_______________________________________________________________
+MÉTODOS DE PAGO:
+Podes pagar con todos los medios de pago que ofrece Mercado Pago.
+_______________________________________________________________
+ENVÍOS:
+Tené en cuenta que los días que figuran en la publicación son estimativos, una vez que se acredite tu pago, haremos el despacho entre 24hs y 48hs hábiles. Los días sábados y domingos no cuentan cómo días hábiles.
+
+Hacemos envíos a todo el país a través de Mercado Envíos, excepto a la provincia de Tierra del Fuego.
+Si vas a retirar en una sucursal del Correo o punto de retiro:
+- Necesitas llevar tu DNI y el código de pedido y/o seguimiento.
+Si autorizas a otra persona, esta se debe presentar con la Autorización de Retiro, con una copia del documento del destinatario y el documento propio.
+_______________________________________________________________
+PREGUNTAS FRECUENTES:
+¿Hay stock?
+Si el producto a seleccionar se encuentra disponible, contamos con stock.
+
+¿El producto es original? :
+Somos Tienda Oficial en Mercado Libre. Todos nuestros productos son 100% originales.
+
+¿Realizan factura A?
+Realizamos factura B, asociada a los datos que figuran en tu usuario de Mercado Libre de manera automática.
+
+¿Cuál es mi talle de calzado?
+Todos los productos publicados se muestran en talles argentinos (este no se encuentra en la etiqueta, ya que los productos mayormente son importados). Si tenes dudas con el talle podemos asesorarte antes de realizar la compra.
+
+¿El pedido lo puede recibir cualquier persona?
+Si, puede recibirlo cualquier persona mayor de 18 años. Podes colocar sus datos en el proceso de compra.
+
+¿Las devoluciones tienen costo?
+No, ya que Mercado Libre ofrece el servicio de “Devolución gratis por 30 (treinta) días”. De igual manera, recordá que podes realizar el cambio en cualquiera de nuestras sucursales.
+
+¿Límite de tiempo para cambios? (SOLO EN SUCURSAL)
+Para realizar un cambio tenes hasta 30 (treinta) días corridos desde que recibiste el producto en cualquiera de nuestras sucursales presentando la factura de compra.
+_______________________________________________________________
+ATENCIÓN AL CLIENTE:
+Lunes a Viernes de 9 a 20 hs. y Sábados de 9 a 17 hs,
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+`;
